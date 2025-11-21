@@ -1,0 +1,3 @@
+git add .
+git commit -m "Version finale du jeu simple"
+git push origin main
