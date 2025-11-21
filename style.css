@@ -1,0 +1,53 @@
+/* Style général */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #0b1220, #041021);
+  font-family: system-ui, "Segoe UI", Roboto, Arial;
+  color: #fff;
+}
+
+/* Interface score / vies */
+#ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+#score, #lives {
+  background: rgba(0,0,0,0.3);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Canvas du jeu */
+canvas { 
+  width: 100vw; 
+  height: 100vh; 
+  display: block; 
+  touch-action: none; 
+}
+
+/* Bouton commencer */
+#startBtn {
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 22px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
