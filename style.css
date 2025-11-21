@@ -1,4 +1,3 @@
-/* Style général */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { height: 100%; }
 
@@ -11,7 +10,6 @@ body {
   color: #fff;
 }
 
-/* Interface score / vies */
 #ui {
   position: fixed;
   top: 10px;
@@ -29,7 +27,6 @@ body {
   font-weight: 600;
 }
 
-/* Canvas du jeu */
 canvas { 
   width: 100vw; 
   height: 100vh; 
@@ -37,7 +34,6 @@ canvas {
   touch-action: none; 
 }
 
-/* Bouton commencer */
 #startBtn {
   position: fixed;
   top: 50%; 
